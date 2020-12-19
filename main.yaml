@@ -1,4 +1,9 @@
-- name: restart apache
+- name: install httpd
+  yum:
+    name: httpd
+    state: latest
+
+- name: start httpd
   service:
-    name: apache
-    state: restarted
+    name: httpd
+    state: started
