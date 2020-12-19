@@ -1,0 +1,13 @@
+---
+- hosts: all
+  roles: 
+    - role1
+    - role2
+  tags:
+    - double
+
+- hosts: all
+  roles:
+    - role2
+  tags:
+    - second
