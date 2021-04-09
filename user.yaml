@@ -12,8 +12,19 @@
       name: httpd
       state: started
 
+  - name: create user meerim
+    user:
+      name: meerim
+     
+  - name: create user nurkyz
+    user:
+      name: nurkyz
+      
+      
+
   - name: create users
-    users:
-    - meerim
-    - nurkyz
+    user:
+      name: 
+        - meerim
+        - nurkyz
       
