@@ -24,7 +24,6 @@
 
   - name: create users
     user:
-      name: 
-        - meerim
-        - nurkyz
+      name: "meerim"
+      name: "nurkyz"
       
