@@ -1,9 +1,9 @@
 - hosts: all
   tasks:
   - name: Create directory
-      file:
-        path: /var/www
-        state: directory  
+    file:
+      path: /var/www
+      state: directory  
   
   - name: Create file
     file:
